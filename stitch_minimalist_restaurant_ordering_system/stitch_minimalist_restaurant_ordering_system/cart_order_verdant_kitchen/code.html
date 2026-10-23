@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { 'colors': { 'surface-container-low': '#f1f3ff', 'on-primary': '#ffffff', 'secondary': '#1f6c3a', 'primary': '#00652c', 'on-secondary-fixed': '#00210b', 'surface-container-lowest': '#ffffff', 'primary-container': '#15803d', 'background': '#f9f9ff', 'outline': '#6f7a6e', 'secondary-fixed': '#a6f4b5', 'on-background': '#141b2b', 'on-primary-fixed': '#00210a', 'surface': '#f9f9ff', 'secondary-fixed-dim': '#8bd79b', 'on-secondary': '#ffffff', 'surface-container-highest': '#dce2f7', 'primary-fixed': '#95f8a7', 'outline-variant': '#becabc', 'surface-variant': '#dce2f7', 'primary-fixed-dim': '#79db8d', 'on-primary-fixed-variant': '#005323', 'on-secondary-fixed-variant': '#005226', 'surface-tint': '#006d30', 'on-primary-container': '#d3ffd5', 'on-error-container': '#93000a', 'error': '#ba1a1a', 'tertiary-fixed': '#d9e3f7', 'on-error': '#ffffff', 'on-surface': '#141b2b', 'error-container': '#ffdad6', 'on-secondary-container': '#24703e', 'tertiary': '#4e5868', 'inverse-on-surface': '#edf0ff', 'secondary-container': '#a4f1b2', 'on-surface-variant': '#3f493f', 'on-tertiary-container': '#f0f4ff', 'on-tertiary-fixed-variant': '#3d4757', 'surface-bright': '#f9f9ff', 'tertiary-container': '#667082', 'tertiary-fixed-dim': '#bdc7db', 'on-tertiary': '#ffffff', 'inverse-primary': '#79db8d', 'surface-container-high': '#e1e8fd', 'inverse-surface': '#293040', 'surface-dim': '#d3daef', 'surface-container': '#e9edff', 'on-tertiary-fixed': '#121c2a' }, 'borderRadius': { 'DEFAULT': '0.125rem', 'lg': '0.25rem', 'xl': '0.5rem', 'full': '0.75rem' }, 'spacing': { 'gutter': '1.5rem', 'space-lg': '1.5rem', 'margin-desktop': '3rem', 'space-sm': '0.5rem', 'space-xs': '0.25rem', 'space-md': '1rem', 'gutter-desktop': '2rem', 'margin': '1.5rem', 'space-xl': '2.5rem' }, 'fontFamily': { 'price-lg': ['Plus Jakarta Sans'], 'body-sm': ['Inter'], 'body-lg': ['Inter'], 'label-sm': ['Plus Jakarta Sans'], 'display-lg': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'display-sm': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'headline-lg': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'body-md': ['Inter'], 'price-md': ['Plus Jakarta Sans'] }, 'fontSize': { 'price-lg': ['1.375rem', { 'lineHeight': '1.75rem', 'letterSpacing': '-0.01em', 'fontWeight': '700' }], 'body-sm': ['0.8125rem', { 'lineHeight': '1.25rem', 'fontWeight': '400' }], 'body-lg': ['1.125rem', { 'lineHeight': '1.75rem', 'fontWeight': '400' }], 'label-sm': ['0.75rem', { 'lineHeight': '1rem', 'letterSpacing': '0.02em', 'fontWeight': '600' }], 'display-lg': ['3.5rem', { 'lineHeight': '4rem', 'letterSpacing': '-0.025em', 'fontWeight': '700' }], 'label-md': ['0.875rem', { 'lineHeight': '1.25rem', 'letterSpacing': '0.01em', 'fontWeight': '600' }], 'display-sm': ['2.25rem', { 'lineHeight': '2.75rem', 'letterSpacing': '-0.02em', 'fontWeight': '600' }], 'headline-sm': ['1.125rem', { 'lineHeight': '1.5rem', 'fontWeight': '600' }], 'headline-lg': ['1.75rem', { 'lineHeight': '2.25rem', 'letterSpacing': '-0.015em', 'fontWeight': '600' }], 'headline-md': ['1.25rem', { 'lineHeight': '1.75rem', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'body-md': ['0.9375rem', { 'lineHeight': '1.5rem', 'fontWeight': '400' }], 'price-md': ['1.0625rem', { 'lineHeight': '1.5rem', 'fontWeight': '600' }] } } } };</script></head><body class="bg-surface-container-lowest font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/30"><div class="h-20 max-w-[1440px] mx-auto px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Verdant Kitchen Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UmnJ9AfEVYpkXOpQqmNJH_hEI519IagmKX3nQQaPXuvmnA70m6W2ZRSwOumbfiuFZgu85EHvc-N4pxyW35rajDIo5q9bjnECU6ADmxMFsu09uTd4gRMknq9XT1CH8UppDvOy6m-ta4GXhQOqRe57Z-yuqYPY7zybxW_c0tswP_YRiXkIMkMN6w6tyWxSf-Du4dGzHvBfstSfxwgN0bL-QSyzxQkhMFrZVlPvSTc8ienmCuQh5J3iI4zLQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Verdant Kitchen</span><span class="font-label-sm text-label-sm text-on-surface-variant font-normal">Artisanal Kitchen &amp; Grill</span></div></div><div class="flex items-center gap-space-xl"><nav class="flex items-center gap-space-xs p-space-xs rounded-xl bg-surface-container-low" data-active-classes="bg-primary-container text-on-primary font-label-md rounded-xl shadow-sm"><a class="px-space-md py-space-sm text-on-surface-variant font-label-md text-label-md transition-colors hover:text-on-surface" data-path="menu" href="#">Menu</a><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-primary-container text-on-primary font-label-md rounded-xl shadow-sm" data-path="cart" href="#">Cart</a></nav><div class="flex items-center gap-space-md pl-space-sm"><a aria-label="View Cart" class="relative flex items-center justify-center p-space-sm rounded-xl text-on-surface hover:bg-surface-container-low transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-[24px]">shopping_bag</span><span class="absolute -top-1 -right-1 flex items-center justify-center min-w-[20px] h-5 px-space-xs rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">3</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-surface-container-lowest min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<div class="max-w-[1440px] w-full mx-auto px-margin-desktop py-space-xl">
+<!-- Navigation & Title Header -->
+<div class="flex flex-col gap-space-sm mb-space-xl">
+<div class="flex items-center">
+<a class="group inline-flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" data-path="menu" href="#">
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:-translate-x-1">arrow_back</span>
+<span>Back to Menu</span>
+</a>
+</div>
+<div class="flex flex-wrap items-baseline gap-space-md">
+<h1 class="font-display-sm text-display-sm text-on-surface tracking-tight">Your Cart &amp; Order Review</h1>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant font-normal" id="header-item-count">(3 items selected)</span>
+</div>
+</div>
+<!-- Main Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- Left Column: Items List & Empty State Container (8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Cart Items Wrapper -->
+<div class="flex flex-col gap-space-md" id="cart-items-container">
+<!-- Item 1 -->
+<div class="cart-item bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-lg transition-all" data-item-id="item-1" data-max="8" data-price="480" data-qty="2">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="relative w-20 h-20 rounded-md overflow-hidden bg-surface-container flex-shrink-0">
+<img alt="Hyderabadi Dum Mutton Biriyani" class="w-full h-full object-cover" data-alt="Artisanal Hyderabadi mutton biriyani in an authentic brass vessel, seasoned with royal saffron grains, caramelized shallots, crisp mint sprigs, and tender slow-cooked lamb on fine dining table with subtle kitchen steam." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEyx1FVm6yKJjYoPRxaTyXAJJneu4jO5v-rNfoHrLCTwdtvP7MSgjBSJiVSzRQ2f27ZWOb5uidvCP6JJgacWUNv8A5TwLJOWxT9wjxTicyzDfKXKWDB3WHLi3N5mknb0h_rEiP_oJerSjfqAlrP-HdOnEzd0aSHRHsbH1gGgHqM0XdgM1ARfALDBoxz3JDcZl8t1d69wp17ilMSDatWRF372STUgseGFEG52HA5URksHyQMHeceRQR0g"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="px-2 py-0.5 rounded text-[11px] font-label-sm font-semibold bg-surface-container text-on-surface-variant tracking-wider uppercase">Biriyani</span>
+<span class="text-on-surface-variant text-body-sm">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">₹480 each</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Hyderabadi Dum Mutton Biriyani</h3>
+<span class="stock-label text-body-sm text-on-surface-variant mt-1">(Max 8 available)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-low rounded-md p-1 shadow-sm">
+<button aria-label="Decrease quantity" class="btn-qty-minus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="qty-display w-8 text-center font-label-md text-label-md text-on-surface select-none">2</span>
+<button aria-label="Increase quantity" class="btn-qty-plus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+<!-- Price & Remove -->
+<div class="flex items-center gap-space-md">
+<span class="item-line-total font-price-lg text-price-lg text-on-surface w-24 text-right">₹960</span>
+<button aria-label="Remove item" class="btn-remove-item text-on-surface-variant hover:text-error transition-colors p-2 rounded-lg hover:bg-surface-container-low" title="Remove item" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="cart-item bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-lg transition-all" data-item-id="item-2" data-max="5" data-price="390" data-qty="1">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="relative w-20 h-20 rounded-md overflow-hidden bg-surface-container flex-shrink-0">
+<img alt="Charcoal Grilled Herb Chicken" class="w-full h-full object-cover" data-alt="Gourmet charcoal grilled herb chicken breast with char marks, paired with charred rosemary, lemon wedges, and cracked black pepper on an artisanal stoneware platter in a high-end restaurant ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMKBPWsn8bkYUvGESP77ipsenO9wWgZEw29WU-xbxMw_traZcjSvb9INrJIw9CVyII5Oj1ah4GDU42D9yZId9Gl_3ZhVxSkxggHW-hGzNFOgyRtSwgvm_vgmQnSkV2rk4FVYRRT2g-QjHhvEdV7s57ITUjJKqbqvp7WrYTq-SusD-8HY9DdGUf_YRslaYKOP8OyZJylRMjfFdPwZhO8glhJhQ2am4famMOzAoQZxX-5OtjyYD7WPae1Q"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="px-2 py-0.5 rounded text-[11px] font-label-sm font-semibold bg-surface-container text-on-surface-variant tracking-wider uppercase">Grill</span>
+<span class="text-on-surface-variant text-body-sm">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">₹390 each</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Charcoal Grilled Herb Chicken</h3>
+<span class="stock-label text-body-sm text-on-surface-variant mt-1">(Max 5 available)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-low rounded-md p-1 shadow-sm">
+<button aria-label="Decrease quantity" class="btn-qty-minus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="qty-display w-8 text-center font-label-md text-label-md text-on-surface select-none">1</span>
+<button aria-label="Increase quantity" class="btn-qty-plus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+<!-- Price & Remove -->
+<div class="flex items-center gap-space-md">
+<span class="item-line-total font-price-lg text-price-lg text-on-surface w-24 text-right">₹390</span>
+<button aria-label="Remove item" class="btn-remove-item text-on-surface-variant hover:text-error transition-colors p-2 rounded-lg hover:bg-surface-container-low" title="Remove item" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="cart-item bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-lg transition-all" data-item-id="item-3" data-max="15" data-price="160" data-qty="2">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="relative w-20 h-20 rounded-md overflow-hidden bg-surface-container flex-shrink-0">
+<img alt="Fresh Cold-Pressed Valencia Orange Juice" class="w-full h-full object-cover" data-alt="Tall clear glass carafe of fresh cold-pressed valencia orange juice with vibrant pulpy citrus liquid, cold dew drops on glass, resting on slate kitchen surface with sliced citrus fruits and mint accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6ORdXOKiQKJGAA38f9NMvXpFXbcHK9gdQqpkgbgfpNL-yvTXColEyA8uQi4ow3nvhIKMTdjvJLddHi6lg_aU_h4GaxefDlUTk8UkL8nSDYnEtSxThfYBi4ByzdQAK63FzD8PY9lH3HFa4Tjja32Goj-CYFzmW_lKs_VKB_KFZ8g5GY1-IVirfua6wrZkZFFVQ6HiKavKhgF1raC57iCXTLaXS03VWu2f-krZQES6ccrxjkscpcAUFuQ"/>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="px-2 py-0.5 rounded text-[11px] font-label-sm font-semibold bg-surface-container text-on-surface-variant tracking-wider uppercase">Juice</span>
+<span class="text-on-surface-variant text-body-sm">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">₹160 each</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Fresh Cold-Pressed Valencia Orange Juice</h3>
+<span class="stock-label text-body-sm text-on-surface-variant mt-1">(Max 15 available)</span>
+</div>
+</div>
+<div class="flex items-center justify-between sm:justify-end gap-space-lg w-full sm:w-auto">
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-low rounded-md p-1 shadow-sm">
+<button aria-label="Decrease quantity" class="btn-qty-minus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="qty-display w-8 text-center font-label-md text-label-md text-on-surface select-none">2</span>
+<button aria-label="Increase quantity" class="btn-qty-plus w-7 h-7 flex items-center justify-center rounded text-on-surface hover:bg-surface-container-lowest active:scale-95 transition-all focus:outline-none" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+<!-- Price & Remove -->
+<div class="flex items-center gap-space-md">
+<span class="item-line-total font-price-lg text-price-lg text-on-surface w-24 text-right">₹320</span>
+<button aria-label="Remove item" class="btn-remove-item text-on-surface-variant hover:text-error transition-colors p-2 rounded-lg hover:bg-surface-container-low" title="Remove item" type="button">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State (Initially Hidden) -->
+<div class="hidden flex flex-col items-center justify-center p-space-xl bg-surface-container-lowest rounded-lg shadow-sm text-center py-20" id="cart-empty-state">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant mb-space-md">
+<span class="material-symbols-outlined text-[36px]">production_quantity_limits</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Your cart is currently empty</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mb-space-lg">
+            Explore our artisanal seasonal menu, freshly prepared grill specialties, and cold-pressed elixirs.
+          </p>
+<a class="inline-flex items-center gap-space-xs bg-primary-container hover:bg-secondary text-on-primary font-label-md text-label-md px-space-lg py-3 rounded-lg shadow-sm transition-colors" data-path="menu" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span>Return to Menu</span>
+</a>
+</div>
+<!-- Kitchen Inventory Notice Card -->
+<div class="flex items-start gap-space-md p-space-md bg-surface-container-low rounded-lg text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[22px] flex-shrink-0 mt-0.5">verified</span>
+<div class="flex flex-col text-body-sm">
+<span class="font-label-md text-on-surface font-semibold mb-0.5">Real-Time Kitchen Allocation</span>
+<span>Items in your cart are temporarily reserved for 15 minutes. Placing this order immediately locks your culinary slot with our chef brigade.</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Order Summary Card (4 Cols - Sticky) -->
+<div class="lg:col-span-4 sticky top-28 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col">
+<div class="flex items-center justify-between pb-space-md mb-space-md bg-surface-container-low -mx-space-lg -mt-space-lg p-space-lg rounded-t-lg">
+<h2 class="font-headline-md text-headline-md text-on-surface">Order Summary</h2>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">receipt_long</span>
+</div>
+<!-- Breakdown Rows -->
+<div class="flex flex-col gap-space-sm mb-space-md font-body-md text-body-md">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span id="subtotal-label">Subtotal (5 items)</span>
+<span class="font-label-md text-on-surface" id="summary-subtotal">₹1,670.00</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span>Restaurant GST &amp; Taxes</span>
+<span class="text-label-sm font-label-sm text-primary px-1 bg-surface-container rounded">5%</span>
+</div>
+<span class="font-label-md text-on-surface" id="summary-tax">₹83.50</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant">
+<span>Packaging &amp; Delivery</span>
+<span class="font-label-md text-primary font-semibold">Free</span>
+</div>
+</div>
+<!-- Total Separation -->
+<div class="bg-surface-container p-space-md rounded-lg flex items-center justify-between mb-space-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Total Payable</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Inclusive of all duties</span>
+</div>
+<span class="font-price-lg text-price-lg text-primary-container" id="summary-total">₹1,753.50</span>
+</div>
+<!-- Stock Reduction Live Badge -->
+<div class="flex items-start gap-space-xs p-space-sm rounded bg-surface-container-low text-on-surface-variant mb-space-lg">
+<span class="material-symbols-outlined text-[18px] text-primary flex-shrink-0 mt-0.5">inventory_2</span>
+<span class="text-[12px] leading-tight">Placing this order immediately reduces live kitchen inventory.</span>
+</div>
+<!-- Primary CTA Button -->
+<button class="w-full bg-primary-container hover:bg-secondary active:scale-[0.99] text-on-primary font-label-md text-label-md py-3.5 px-space-md rounded-lg shadow-sm transition-all flex items-center justify-center gap-space-xs font-semibold cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-primary-container" id="btn-place-order" type="button">
+<span id="place-order-text">Place Order • ₹1,753.50</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+<!-- Delivery Guarantee Microtext -->
+<div class="flex items-center justify-center gap-space-xs mt-space-md text-on-surface-variant font-body-sm text-body-sm text-center">
+<span class="material-symbols-outlined text-[16px] text-secondary">eco</span>
+<span>Freshly prepared upon confirmation • Contactless pickup</span>
+</div>
+</div>
+<!-- Safe Checkout Mini-Card -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex items-center gap-space-md">
+<div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">shield</span>
+</div>
+<div class="flex flex-col font-body-sm text-body-sm">
+<span class="font-label-md text-on-surface">Guaranteed Quality Assurance</span>
+<span class="text-on-surface-variant text-[12px]">Direct from kitchen to table in optimal thermal packaging.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Confirmation Modal Dialog (Inline Hidden Initially) -->
+<div class="hidden fixed inset-0 z-50 flex items-center justify-center p-space-md bg-inverse-surface/40 backdrop-blur-sm" id="order-success-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-xl shadow-xl overflow-hidden transform transition-all p-space-xl flex flex-col items-center text-center">
+<!-- Success Icon -->
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[36px]">check_circle</span>
+</div>
+<span class="px-space-sm py-1 rounded bg-surface-container-low font-label-sm text-label-sm text-primary uppercase tracking-wider mb-space-xs">
+          Order Confirmed • ID #VK-84920
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Order Placed Successfully!</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+          The kitchen brigade has received your order and live ingredients have been committed. Preparation is commencing immediately.
+        </p>
+<!-- Final Snapshot Box -->
+<div class="w-full bg-surface-container-low rounded-lg p-space-md mb-space-lg text-left font-body-sm">
+<div class="flex justify-between items-center mb-space-xs">
+<span class="text-on-surface-variant">Estimated Serving / Pickup:</span>
+<span class="font-label-md text-on-surface font-semibold">25 – 30 mins</span>
+</div>
+<div class="flex justify-between items-center mb-space-xs">
+<span class="text-on-surface-variant">Total Billed:</span>
+<span class="font-price-md text-price-md text-primary-container" id="modal-final-total">₹1,753.50</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-on-surface-variant">Payment Mode:</span>
+<span class="font-label-md text-on-surface font-semibold">Settled • Verdant Direct</span>
+</div>
+</div>
+<!-- Modal Actions -->
+<div class="flex flex-col sm:flex-row gap-space-sm w-full">
+<a class="flex-1 bg-primary-container hover:bg-secondary text-on-primary font-label-md text-label-md py-3 px-space-md rounded-lg shadow-sm transition-colors text-center" data-path="menu" href="#">
+            Order More Items
+          </a>
+<button class="flex-1 bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md py-3 px-space-md rounded-lg transition-colors text-center" id="btn-close-modal" type="button">
+            View Live Status
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function initCartDashboard() {
+    const TAX_RATE = 0.05;
+    const cartContainer = document.getElementById('cart-items-container');
+    const emptyState = document.getElementById('cart-empty-state');
+    const headerCount = document.getElementById('header-item-count');
+    const subtotalLabel = document.getElementById('subtotal-label');
+    const summarySubtotal = document.getElementById('summary-subtotal');
+    const summaryTax = document.getElementById('summary-tax');
+    const summaryTotal = document.getElementById('summary-total');
+    const btnPlaceOrder = document.getElementById('btn-place-order');
+    const placeOrderText = document.getElementById('place-order-text');
+    const modal = document.getElementById('order-success-modal');
+    const modalFinalTotal = document.getElementById('modal-final-total');
+    const btnCloseModal = document.getElementById('btn-close-modal');
+
+    function calculateCart() {
+      const items = Array.from(document.querySelectorAll('.cart-item'));
+      let totalItemsCount = 0;
+      let totalUnits = 0;
+      let subtotal = 0;
+
+      items.forEach(item => {
+        const price = parseFloat(item.getAttribute('data-price')) || 0;
+        const qty = parseInt(item.getAttribute('data-qty')) || 0;
+        const lineTotal = price * qty;
+        
+        totalItemsCount += 1;
+        totalUnits += qty;
+        subtotal += lineTotal;
+
+        const lineTotalElem = item.querySelector('.item-line-total');
+        if (lineTotalElem) {
+          lineTotalElem.textContent = '₹' + lineTotal.toLocaleString('en-IN');
+        }
+
+        const qtyDisplay = item.querySelector('.qty-display');
+        if (qtyDisplay) {
+          qtyDisplay.textContent = qty;
+        }
+
+        const plusBtn = item.querySelector('.btn-qty-plus');
+        const maxStock = parseInt(item.getAttribute('data-max')) || 10;
+        if (plusBtn) {
+          plusBtn.disabled = qty >= maxStock;
+          plusBtn.classList.toggle('opacity-40', qty >= maxStock);
+          plusBtn.classList.toggle('cursor-not-allowed', qty >= maxStock);
+        }
+
+        const minusBtn = item.querySelector('.btn-qty-minus');
+        if (minusBtn) {
+          minusBtn.disabled = qty <= 1;
+          minusBtn.classList.toggle('opacity-40', qty <= 1);
+          minusBtn.classList.toggle('cursor-not-allowed', qty <= 1);
+        }
+      });
+
+      const tax = subtotal * TAX_RATE;
+      const total = subtotal + tax;
+
+      // Update Header & Summary
+      if (totalItemsCount === 0) {
+        cartContainer.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+        headerCount.textContent = '(0 items selected)';
+        subtotalLabel.textContent = 'Subtotal (0 items)';
+        summarySubtotal.textContent = '₹0.00';
+        summaryTax.textContent = '₹0.00';
+        summaryTotal.textContent = '₹0.00';
+        placeOrderText.textContent = 'Place Order • ₹0.00';
+        btnPlaceOrder.disabled = true;
+      } else {
+        cartContainer.classList.remove('hidden');
+        emptyState.classList.add('hidden');
+        headerCount.textContent = '(' + totalItemsCount + ' ' + (totalItemsCount === 1 ? 'item' : 'items') + ' selected)';
+        subtotalLabel.textContent = 'Subtotal (' + totalUnits + ' ' + (totalUnits === 1 ? 'item' : 'items') + ')';
+        summarySubtotal.textContent = '₹' + subtotal.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        summaryTax.textContent = '₹' + tax.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        summaryTotal.textContent = '₹' + total.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        placeOrderText.textContent = 'Place Order • ₹' + total.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        btnPlaceOrder.disabled = false;
+      }
+
+      return { subtotal, tax, total };
+    }
+
+    // Attach row events
+    function bindRowHandlers() {
+      document.querySelectorAll('.cart-item').forEach(item => {
+        const minusBtn = item.querySelector('.btn-qty-minus');
+        const plusBtn = item.querySelector('.btn-qty-plus');
+        const removeBtn = item.querySelector('.btn-remove-item');
+        const maxStock = parseInt(item.getAttribute('data-max')) || 10;
+
+        if (minusBtn) {
+          minusBtn.onclick = function() {
+            let currentQty = parseInt(item.getAttribute('data-qty')) || 1;
+            if (currentQty > 1) {
+              item.setAttribute('data-qty', currentQty - 1);
+              calculateCart();
+            }
+          };
+        }
+
+        if (plusBtn) {
+          plusBtn.onclick = function() {
+            let currentQty = parseInt(item.getAttribute('data-qty')) || 1;
+            if (currentQty < maxStock) {
+              item.setAttribute('data-qty', currentQty + 1);
+              calculateCart();
+            }
+          };
+        }
+
+        if (removeBtn) {
+          removeBtn.onclick = function() {
+            item.remove();
+            calculateCart();
+          };
+        }
+      });
+    }
+
+    // Place Order Click
+    btnPlaceOrder.addEventListener('click', function() {
+      const calc = calculateCart();
+      if (calc.total > 0) {
+        modalFinalTotal.textContent = '₹' + calc.total.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        modal.classList.remove('hidden');
+      }
+    });
+
+    btnCloseModal.addEventListener('click', function() {
+      modal.classList.add('hidden');
+    });
+
+    // Close on backdrop
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+
+    bindRowHandlers();
+    calculateCart();
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/20 py-space-xl"><div class="max-w-[1440px] mx-auto px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Hours</span><span>Tue – Sun: 11:30 AM – 10:00 PM</span><span class="text-outline-variant">•</span><span>Mon: Closed</span></div><div><span>© 2025 Verdant Kitchen. All rights reserved.</span></div></div></footer></body></html>
